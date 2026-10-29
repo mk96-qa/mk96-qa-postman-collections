@@ -1,0 +1,196 @@
+{
+	"info": {
+		"_postman_id": "7a47e6b6-7ffa-4f20-9890-a151d7642b08",
+		"name": "PricesDb",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "29431640"
+	},
+	"item": [
+		{
+			"name": "GetPrices1410_1_35455",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"productId\": 35455,\r\n    \"brandId\": 1,\r\n    \"applicationDate\": \"2020-06-14T10:00:00\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8090/Neoris/Inditex/PricesDB/getOperatingProductRate",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8090",
+					"path": [
+						"Neoris",
+						"Inditex",
+						"PricesDB",
+						"getOperatingProductRate"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetPrices1416_1_35455",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"productId\": 35455,\r\n    \"brandId\": 1,\r\n    \"applicationDate\": \"2020-06-14T16:00:00\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8090/Neoris/Inditex/PricesDB/getOperatingProductRate",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8090",
+					"path": [
+						"Neoris",
+						"Inditex",
+						"PricesDB",
+						"getOperatingProductRate"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetPrices1421_1_35455",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"productId\": 35455,\r\n    \"brandId\": 1,\r\n    \"applicationDate\": \"2020-06-14T21:00:00\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8090/Neoris/Inditex/PricesDB/getOperatingProductRate",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8090",
+					"path": [
+						"Neoris",
+						"Inditex",
+						"PricesDB",
+						"getOperatingProductRate"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetPrices1510_1_35455",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"productId\": 35455,\r\n    \"brandId\": 1,\r\n    \"applicationDate\": \"2020-06-15T10:00:00\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8090/Neoris/Inditex/PricesDB/getOperatingProductRate",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8090",
+					"path": [
+						"Neoris",
+						"Inditex",
+						"PricesDB",
+						"getOperatingProductRate"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetPrices1621_1_35455",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"productId\": 35455,\r\n    \"brandId\": 1,\r\n    \"applicationDate\": \"2020-06-16T21:00:00\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8090/Neoris/Inditex/PricesDB/getOperatingProductRate",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8090",
+					"path": [
+						"Neoris",
+						"Inditex",
+						"PricesDB",
+						"getOperatingProductRate"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetPricesError",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"productId\": 1000,\r\n    \"brandId\": 1,\r\n    \"applicationDate\": \"2020-06-16T21:00:00\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8090/Neoris/Inditex/PricesDB/getOperatingProductRate",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8090",
+					"path": [
+						"Neoris",
+						"Inditex",
+						"PricesDB",
+						"getOperatingProductRate"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
